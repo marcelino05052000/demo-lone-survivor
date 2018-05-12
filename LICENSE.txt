@@ -1,7 +1,7 @@
 The MIT License (MIT)
 
-Copyright (C) [2018] [Demo Project Amriel] [Jean Bispo, Marcelino Barros,
-Nadson Cavalcante e Tiago Eduardo]
+Copyright (C) 2018 - Demo Project Amriel - Jean Bispo, Marcelino Barros,
+Nadson Cavalcante e Tiago Eduardo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
