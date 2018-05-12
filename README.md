@@ -1,23 +1,23 @@
 # DEMO PROJECT AMRIEL
-Pr·tica Profissional Orientada (PPO) em desenvolvimento por Jean Bispo, Marcelino Barros e Nadson Cavalcante.
+Pr√°tica Profissional Orientada (PPO) em desenvolvimento por Jean Bispo, Marcelino Barros e Nadson Cavalcante.
 
-## MotivaÁ„o
-NÛs vimos a possibilidade de criarmos algo novo, com uma histÛria nunca vista antes e com um car·ter prÛprio e carism·tico, o que ent„o trouxe a inspiraÁ„o ao grupo. O jogo visa trazer o maior entretenimento ao jogador, visto as mec‚nicas e a histÛria cativante.
+## Motiva√ß√£o
+N√≥s vimos a possibilidade de criarmos algo novo, com uma hist√≥ria nunca vista antes e com um car√°ter pr√≥prio e carism√°tico, o que ent√£o trouxe a inspira√ß√£o ao grupo. O jogo visa trazer o maior entretenimento ao jogador, visto as mec√¢nicas e a hist√≥ria cativante.
 
-## SoluÁıes existentes
-V·rios outros jogos j· trouxeram uma base de jogo/histÛria igual ao nosso (em 2D tambÈm), nenhum deles possuem problemas e tem seu prÛprio car·ter, assim como o nosso.
+## Solu√ß√µes existentes
+V√°rios outros jogos j√° trouxeram uma base de jogo/hist√≥ria igual ao nosso (em 2D tamb√©m), nenhum deles possuem problemas e tem seu pr√≥prio car√°ter, assim como o nosso.
 
-## InovaÁ„o
-Desejamos trazer algo completamente novo em 2D pelo charme que o jogo pode trazer, baseado em idÈias dos trÍs integrantes e inspiraÁıes com elementos que fazem parte da vida dos tais.
+## Inova√ß√£o
+Desejamos trazer algo completamente novo em 2D pelo charme que o jogo pode trazer, baseado em id√©ias dos tr√™s integrantes e inspira√ß√µes com elementos que fazem parte da vida dos tais.
 
-## P˙blico alvo
-O jogo ser· de computador e ter· como p˙blico alvo qualquer pessoa que se interesse a jogar. Uma vers„o de smartphone ou qualquer outra plataforma n„o È o foco atual. 
+## P√∫blico alvo
+O jogo ser√° de computador e ter√° como p√∫blico alvo qualquer pessoa que se interesse a jogar. Uma vers√£o de smartphone ou qualquer outra plataforma n√£o √© o foco atual. 
 
-## MonetizaÁ„o
-H· a opÁ„o de colocarmos na plataforma steam, no programa da greenlight, o qual adere a entrada de jogos de empresas pequenas/grupos como o nosso, e se caso aceito, se torne um jogo permanente na plataforma para a venda, assim como h· outras plataformas que aderem a mesma ideia.
+## Monetiza√ß√£o
+H√° a op√ß√£o de colocarmos na plataforma steam, no programa da greenlight, o qual adere a entrada de jogos de empresas pequenas/grupos como o nosso, e se caso aceito, se torne um jogo permanente na plataforma para a venda, assim como h√° outras plataformas que aderem a mesma ideia.
 
 ## Ferramental utilizado
-Estaremos utilizando o Phaser 3, plataforma de criaÁ„o integrada puramente em JavaScript e o Aseprite para criaÁ„o e animaÁıes dos sprites in-game.
+Estaremos utilizando o Phaser 3, plataforma de cria√ß√£o integrada puramente em JavaScript e o Aseprite para cria√ß√£o e anima√ß√µes dos sprites in-game.
 
 ## Contribuidores
 - [@marcelino05052000](https://github.com/marcelino05052000) como Marcelino Barros (Arquiteto)
@@ -25,25 +25,26 @@ Estaremos utilizando o Phaser 3, plataforma de criaÁ„o integrada puramente em Ja
 - [@nadsonc](https://github.com/nadsonc) como Nadson Cavalcante (Desenvolvedor)
 - [@tiagoesng](https://github.com/tiagoesng) como Tiago Eduardo (Orientador)
 
-## LicenÁa
-The MIT License (MIT)
+## Licen√ßa
+MIT License
 
-Copyright (c) [2018] [Jean Bispo, Marcelino Barros, Nadson Cavalcante e Tiago Eduardo]
+Copyright (c) 2018 Jean Bispo, Marcelino Barros, Nadson Cavalcante e Tiago Eduardo
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
