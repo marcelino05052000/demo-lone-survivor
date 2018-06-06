@@ -1,3 +1,27 @@
+/*
+MIT License
+
+Copyright (c) 2018 Jean Bispo, Marcelino Barros, Nadson Cavalcante e Tiago Eduardo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -5,7 +29,7 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 300 },
+            gravity: { y: 520 },
             debug: false
         }
     },
@@ -29,21 +53,12 @@ function preload ()
     this.load.image('altar','img/altar.png');
     this.load.image('espada','img/espada.png');
     this.load.image('arbusto','img/arbusto.png');
-    this.load.spritesheet('boneco','img/boneco.png', { frameWidth: 32, frameHeight: 48 });
+    this.load.spritesheet('amriel','img/Sprites Amriel NoSword.png', { frameWidth: 73, frameHeight: 120 });
 }
 
 function create ()
 {
     this.add.sprite(400,252,'ceu');
-
-    /*this.add.sprite(50,550,'chao');
-    this.add.sprite(150,550,'chao');
-    this.add.sprite(250,550,'chao');
-    this.add.sprite(350,550,'chao');
-    this.add.sprite(450,550,'chao');
-    this.add.sprite(550,550,'chao');
-    this.add.sprite(650,550,'chao');
-    this.add.sprite(750,550,'chao');*/
 
     platforms = this.physics.add.staticGroup();
 
@@ -56,6 +71,7 @@ function create ()
     platforms.create(650,550,'chao');
     platforms.create(750,550,'chao');
 
+
     this.add.sprite(140,354,'arvore');
     this.add.sprite(660,354,'arvore');
 
@@ -66,27 +82,27 @@ function create ()
     this.add.sprite(60,480,'arbusto');
     this.add.sprite(730,480,'arbusto');
 
-    player = this.physics.add.sprite(100, 450, 'boneco').setScale(2);
+    player = this.physics.add.sprite(100, 400, 'amriel');
 
     player.setBounce(0.2);
     player.setCollideWorldBounds(true);
 
     this.anims.create({
         key: 'left',
-        frames: this.anims.generateFrameNumbers('boneco', { start: 0, end: 3 }),
+        frames: this.anims.generateFrameNumbers('amriel', { start: 0, end: 3 }),
         frameRate: 10,
         repeat: -1
     });
 
     this.anims.create({
         key: 'turn',
-        frames: [ { key: 'boneco', frame: 4 } ],
+        frames: [ { key: 'amriel', frame: 4 } ],
         frameRate: 20
     });
 
     this.anims.create({
         key: 'right',
-        frames: this.anims.generateFrameNumbers('boneco', { start: 5, end: 8 }),
+        frames: this.anims.generateFrameNumbers('amriel', { start: 4, end: 7 }),
         frameRate: 10,
         repeat: -1
     });
@@ -94,7 +110,6 @@ function create ()
     cursors = this.input.keyboard.createCursorKeys();
 
     this.physics.add.collider(player, platforms);
-   
 }
 
 function update ()
